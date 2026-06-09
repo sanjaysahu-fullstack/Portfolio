@@ -1,10 +1,10 @@
 import { useState } from "react";
+import sanjayProfile from "../assets/images/sanjay_profile.png";
 import { motion, AnimatePresence } from "motion/react";
 import { X } from "lucide-react";
 import { profileData } from "../data";
 
 export default function Hero() {
-  const sanjayProfile = "/src/assets/images/sanjay_profile.png";
   const [isHovered, setIsHovered] = useState(false);
   const [showHiringAlert, setShowHiringAlert] = useState(true);
 
